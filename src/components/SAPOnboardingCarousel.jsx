@@ -18,12 +18,11 @@ const SAPOnboardingCarousel = () => {
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [fullscreenImage, setFullscreenImage] = useState("");
 
-  // JSON data for SAP onboarding slides
   const slidesData = {
     slides: [
       {
         id: 1,
-        title: "Welcome to SAP Analytics Suite",
+        title: "Welcome to SAP onBoarding",
         subtitle:
           "Discover powerful features to transform your business insights",
         type: "hero",
