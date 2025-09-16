@@ -18,6 +18,7 @@ const SAPOnboardingCarousel = () => {
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [fullscreenImage, setFullscreenImage] = useState("");
 
+  // JSON data for SAP onboarding slides
   const slidesData = {
     slides: [
       {
@@ -180,26 +181,26 @@ const SAPOnboardingCarousel = () => {
       globe: Globe,
     };
     const IconComponent = icons[iconName] || BarChart3;
-    return <IconComponent className="w-8 h-8" />;
+    return <IconComponent className="w-6 h-6 sm:w-8 sm:h-8" />;
   };
 
   const renderHeroSlide = (content) => (
-    <div className="flex items-center justify-between max-w-7xl mx-auto px-8">
-      <div className="w-1/2 pr-12">
+    <div className="flex flex-col lg:flex-row items-center justify-between w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 lg:space-y-0">
+      <div className="w-full lg:w-1/2 lg:pr-8 xl:pr-12">
         <div
-          className={`bg-gradient-to-br ${content.gradient} rounded-3xl p-12 cursor-pointer transform transition-all duration-500 hover:scale-105 hover:shadow-2xl`}
+          className={`bg-gradient-to-br ${content.gradient} rounded-2xl sm:rounded-3xl p-6 sm:p-8 lg:p-12 cursor-pointer transform transition-all duration-500 hover:scale-105 hover:shadow-2xl`}
           onClick={() => openFullscreen(content.image)}
         >
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
+          <div className="bg-white/10 backdrop-blur-sm rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-white/20">
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-14 h-14 bg-white/20 backdrop-blur-sm rounded-full mb-6 text-white border border-white/30">
+              <div className="inline-flex items-center justify-center w-10 h-10 sm:w-14 sm:h-14 bg-white/20 backdrop-blur-sm rounded-full mb-4 sm:mb-6 text-white border border-white/30">
                 {getIcon(content.icon)}
               </div>
-              <div className="bg-white/95 rounded-xl p-4 shadow-lg">
+              <div className="bg-white/95 rounded-lg sm:rounded-xl p-3 sm:p-4 shadow-lg">
                 <img
                   src={content.image}
                   alt={content.title}
-                  className="w-full h-28 object-cover rounded-lg"
+                  className="w-full h-20 sm:h-28 object-cover rounded-md sm:rounded-lg"
                 />
               </div>
             </div>
@@ -207,33 +208,41 @@ const SAPOnboardingCarousel = () => {
         </div>
       </div>
 
-      <div className="w-1/2 pl-12">
-        <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100">
-          <p className="text-sm font-semibold text-blue-600 mb-2 uppercase tracking-wider">
+      <div className="w-full lg:w-1/2 lg:pl-8 xl:pl-12">
+        <div className="bg-white rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl border border-gray-100">
+          <p className="text-xs sm:text-sm font-semibold text-blue-600 mb-2 uppercase tracking-wider">
             {content.header}
           </p>
-          <h2 className="text-2xl font-bold mb-3 text-gray-900 leading-tight">
+          <h2 className="text-xl sm:text-2xl font-bold mb-3 text-gray-900 leading-tight">
             {content.title}
           </h2>
-          <p className="text-gray-700 mb-4 leading-relaxed text-base">
+          <p className="text-gray-700 mb-4 leading-relaxed text-sm sm:text-base">
             {content.description}
           </p>
-          <button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+          <button className="w-full sm:w-auto bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 sm:px-8 py-3 rounded-lg sm:rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
             {content.buttonText}
           </button>
 
-          <div className="mt-3 grid grid-cols-3 gap-4">
-            <div className="bg-gray-50 rounded-lg p-4 text-center">
-              <div className="text-2xl font-bold text-blue-600">100+</div>
-              <div className="text-sm text-gray-600">Data Sources</div>
+          <div className="mt-3 grid grid-cols-3 gap-2 sm:gap-4">
+            <div className="bg-gray-50 rounded-lg p-2 sm:p-4 text-center">
+              <div className="text-lg sm:text-2xl font-bold text-blue-600">
+                100+
+              </div>
+              <div className="text-xs sm:text-sm text-gray-600">
+                Data Sources
+              </div>
             </div>
-            <div className="bg-gray-50 rounded-lg p-4 text-center">
-              <div className="text-2xl font-bold text-emerald-600">99.9%</div>
-              <div className="text-sm text-gray-600">Uptime</div>
+            <div className="bg-gray-50 rounded-lg p-2 sm:p-4 text-center">
+              <div className="text-lg sm:text-2xl font-bold text-emerald-600">
+                99.9%
+              </div>
+              <div className="text-xs sm:text-sm text-gray-600">Uptime</div>
             </div>
-            <div className="bg-gray-50 rounded-lg p-4 text-center">
-              <div className="text-2xl font-bold text-purple-600">24/7</div>
-              <div className="text-sm text-gray-600">Support</div>
+            <div className="bg-gray-50 rounded-lg p-2 sm:p-4 text-center">
+              <div className="text-lg sm:text-2xl font-bold text-purple-600">
+                24/7
+              </div>
+              <div className="text-xs sm:text-sm text-gray-600">Support</div>
             </div>
           </div>
         </div>
@@ -242,58 +251,62 @@ const SAPOnboardingCarousel = () => {
   );
 
   const renderFeatureSlide = (content) => (
-    <div className="flex items-center justify-between max-w-7xl mx-auto px-8">
-      <div className="w-1/2 pr-12">
+    <div className="flex flex-col lg:flex-row items-center justify-between w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 lg:space-y-0">
+      <div className="w-full lg:w-1/2 lg:pr-8 xl:pr-12">
         <div
-          className={`bg-gradient-to-br ${content.gradient} rounded-3xl p-12 cursor-pointer transform transition-all duration-500 hover:scale-105 hover:shadow-2xl group`}
+          className={`bg-gradient-to-br ${content.gradient} rounded-2xl sm:rounded-3xl p-6 sm:p-8 lg:p-12 cursor-pointer transform transition-all duration-500 hover:scale-105 hover:shadow-2xl group`}
           onClick={() => openFullscreen(content.image)}
         >
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 group-hover:bg-white/20 transition-all duration-300">
+          <div className="bg-white/10 backdrop-blur-sm rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-white/20 group-hover:bg-white/20 transition-all duration-300">
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-14 h-14 bg-white/20 backdrop-blur-sm rounded-full mb-6 text-white">
+              <div className="inline-flex items-center justify-center w-10 h-10 sm:w-14 sm:h-14 bg-white/20 backdrop-blur-sm rounded-full mb-4 sm:mb-6 text-white">
                 {getIcon(content.icon)}
               </div>
-              <div className="bg-white/95 rounded-xl p-4 shadow-lg overflow-hidden">
+              <div className="bg-white/95 rounded-lg sm:rounded-xl p-3 sm:p-4 shadow-lg overflow-hidden">
                 <img
                   src={content.image}
                   alt={content.title}
-                  className="w-full h-24 object-cover rounded-lg transform group-hover:scale-110 transition-transform duration-500"
+                  className="w-full h-16 sm:h-24 object-cover rounded-md sm:rounded-lg transform group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
-              <div className="mt-4 flex justify-center space-x-2">
-                <div className="w-2 h-2 bg-white/60 rounded-full"></div>
-                <div className="w-2 h-2 bg-white rounded-full"></div>
-                <div className="w-2 h-2 bg-white/60 rounded-full"></div>
+              <div className="mt-3 sm:mt-4 flex justify-center space-x-2">
+                <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-white/60 rounded-full"></div>
+                <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-white rounded-full"></div>
+                <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-white/60 rounded-full"></div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="w-1/2 pl-12">
-        <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100">
-          <p className="text-sm font-semibold text-blue-600 mb-2 uppercase tracking-wider">
+      <div className="w-full lg:w-1/2 lg:pl-8 xl:pl-12">
+        <div className="bg-white rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl border border-gray-100">
+          <p className="text-xs sm:text-sm font-semibold text-blue-600 mb-2 uppercase tracking-wider">
             {content.header}
           </p>
-          <h2 className="text-2xl font-bold mb-3 text-gray-900 leading-tight">
+          <h2 className="text-xl sm:text-2xl font-bold mb-3 text-gray-900 leading-tight">
             {content.title}
           </h2>
-          <p className="text-gray-700 mb-4 leading-relaxed text-base">
+          <p className="text-gray-700 mb-4 leading-relaxed text-sm sm:text-base">
             {content.description}
           </p>
 
-          <div className="space-y-3 mb-3 text-base">
+          <div className="space-y-2 sm:space-y-3 mb-4 sm:mb-6">
             <div className="flex items-center space-x-3">
-              <div className="w-2 h-2 bg-emerald-500 rounded-full"></div>
-              <span className="text-gray-700">Real-time data processing</span>
+              <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-emerald-500 rounded-full"></div>
+              <span className="text-gray-700 text-sm sm:text-base">
+                Real-time data processing
+              </span>
             </div>
             <div className="flex items-center space-x-3">
-              <div className="w-2 h-2 bg-emerald-500 rounded-full"></div>
-              <span className="text-gray-700">Drag-and-drop interface</span>
+              <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-emerald-500 rounded-full"></div>
+              <span className="text-gray-700 text-sm sm:text-base">
+                Drag-and-drop interface
+              </span>
             </div>
           </div>
 
-          <button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+          <button className="w-full sm:w-auto bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 sm:px-8 py-3 rounded-lg sm:rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
             {content.buttonText}
           </button>
         </div>
@@ -302,18 +315,8 @@ const SAPOnboardingCarousel = () => {
   );
 
   const renderTabsSlide = (content) => (
-    <div className="max-w-7xl mx-auto px-8">
-      {/* <div className="text-center mb-8">
-        <h2 className="text-2xl font-bold text-gray-900 mb-3">
-          {content.header}
-        </h2>
-        <p className="text-md text-gray-600 max-w-2xl mx-auto">
-          Choose your preferred starting point and begin your SAP Analytics
-          journey
-        </p>
-      </div> */}
-
-      <div className="grid grid-cols-3 gap-8">
+    <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
         {content.tabs.map((tab, index) => {
           const colorClasses = {
             blue: "from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700",
@@ -326,57 +329,57 @@ const SAPOnboardingCarousel = () => {
           return (
             <div
               key={index}
-              className="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-100"
+              className="bg-white rounded-2xl sm:rounded-3xl p-4 sm:p-6 lg:p-8 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-100"
             >
               <div
                 className="mb-4 cursor-pointer group"
                 onClick={() => openFullscreen(tab.image)}
               >
-                <div className="relative overflow-hidden rounded-2xl">
+                <div className="relative overflow-hidden rounded-xl sm:rounded-2xl">
                   <img
                     src={tab.image}
                     alt={tab.title}
-                    className="w-full h-24 object-cover transition-transform duration-500 group-hover:scale-110"
+                    className="w-full h-16 sm:h-20 lg:h-24 object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300">
-                    <div className="absolute bottom-4 right-4">
-                      <div className="w-12 h-12 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center">
-                        <ExternalLink className="w-6 h-6 text-gray-700" />
+                    <div className="absolute bottom-2 sm:bottom-4 right-2 sm:right-4">
+                      <div className="w-8 h-8 sm:w-12 sm:h-12 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center">
+                        <ExternalLink className="w-4 h-4 sm:w-6 sm:h-6 text-gray-700" />
                       </div>
                     </div>
                   </div>
 
                   {/* Feature icon overlay */}
-                  <div className="absolute top-4 left-4">
-                    <div className="w-10 h-10 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center">
+                  <div className="absolute top-2 sm:top-4 left-2 sm:left-4">
+                    <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center">
                       {getIcon(tab.icon)}
                     </div>
                   </div>
                 </div>
               </div>
 
-              <h3 className="text-2xl font-bold mb-2 text-gray-900">
+              <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-2 text-gray-900">
                 {tab.title}
               </h3>
-              <p className="text-gray-600 mb-4 leading-relaxed">
+              <p className="text-gray-600 mb-4 leading-relaxed text-sm sm:text-base">
                 {tab.description}
               </p>
 
               <button
                 className={`w-full bg-gradient-to-r ${
                   colorClasses[tab.color]
-                } text-white px-6 py-3 text-sm rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl`}
+                } text-white px-4 sm:px-6 py-2.5 sm:py-3 text-sm rounded-lg sm:rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl`}
               >
                 {tab.buttonText}
               </button>
 
               {/* Progress indicator */}
-              <div className="mt-6 flex justify-center">
+              <div className="mt-4 sm:mt-6 flex justify-center">
                 <div className="flex space-x-1">
                   {[...Array(5)].map((_, i) => (
                     <div
                       key={i}
-                      className={`w-2 h-2 rounded-full ${
+                      className={`w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full ${
                         i < index + 2 ? `bg-${tab.color}-500` : "bg-gray-200"
                       }`}
                     ></div>
@@ -395,32 +398,29 @@ const SAPOnboardingCarousel = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 flex flex-col">
       {/* Header with enhanced styling */}
-      <div className="text-center py-8 relative">
+      <div className="text-center py-4 sm:py-6 lg:py-8 relative px-4">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/5 via-purple-600/5 to-blue-600/5"></div>
         <div className="relative">
-          {/* <div className="inline-block bg-white/60 backdrop-blur-sm rounded-full px-4 py-2 mb-4">
-            <span className="text-sm font-semibold text-blue-700">
-              SAP Analytics Cloud
-            </span>
-          </div> */}
-          <h1 className="text-xl font-bold text-gray-900 mb-4 leading-tight">
+          <h1 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-2 sm:mb-4 leading-tight px-4">
             {currentSlideData.title}
           </h1>
-          <p className="text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-sm sm:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed px-4">
             {currentSlideData.subtitle}
           </p>
-          <div className="mt-4 inline-flex items-center space-x-2 bg-white/80 backdrop-blur-sm rounded-full px-6 py-3 shadow-sm">
+          <div className="mt-3 sm:mt-4 inline-flex items-center space-x-2 bg-white/80 backdrop-blur-sm rounded-full px-3 sm:px-6 py-2 sm:py-3 shadow-sm">
             <div className="flex space-x-1">
               {slides.map((_, index) => (
                 <div
                   key={index}
-                  className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                    currentSlide === index ? "bg-blue-600 w-8" : "bg-gray-300"
+                  className={`w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full transition-all duration-300 ${
+                    currentSlide === index
+                      ? "bg-blue-600 w-4 sm:w-8"
+                      : "bg-gray-300"
                   }`}
                 />
               ))}
             </div>
-            <span className="text-sm text-gray-600 ml-4 font-medium">
+            <span className="text-xs sm:text-sm text-gray-600 ml-2 sm:ml-4 font-medium">
               {currentSlide + 1} of {slides.length}
             </span>
           </div>
@@ -428,7 +428,7 @@ const SAPOnboardingCarousel = () => {
       </div>
 
       {/* Main Content */}
-      <div className="flex-1 flex items-center justify-center px-4 py-6">
+      <div className="flex-1 flex items-center justify-center px-2 sm:px-4 py-4 sm:py-6">
         <div className="w-full">
           {currentSlideData.type === "hero" &&
             renderHeroSlide(currentSlideData.content)}
@@ -440,30 +440,32 @@ const SAPOnboardingCarousel = () => {
       </div>
 
       {/* Enhanced Navigation */}
-      <div className="flex items-center justify-between px-8 py-8">
+      <div className="flex items-center justify-between px-4 sm:px-6 lg:px-8 py-4 sm:py-6 lg:py-8">
         <button
           onClick={prevSlide}
           disabled={currentSlide === 0}
-          className="flex items-center space-x-3 px-8 py-3 text-gray-600 hover:text-gray-900 hover:bg-white/80 hover:shadow-lg rounded-xl transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed backdrop-blur-sm"
+          className="flex items-center space-x-2 sm:space-x-3 px-3 sm:px-6 lg:px-8 py-2 sm:py-3 text-gray-600 hover:text-gray-900 hover:bg-white/80 hover:shadow-lg rounded-lg sm:rounded-xl transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed backdrop-blur-sm"
         >
-          <ChevronLeft className="w-6 h-6" />
-          <span className="font-medium">Previous</span>
+          <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" />
+          <span className="font-medium text-sm sm:text-base hidden sm:inline">
+            Previous
+          </span>
         </button>
 
         {/* Enhanced pagination */}
-        <div className="flex items-center space-x-4 bg-white/80 backdrop-blur-sm rounded-2xl px-6 py-3 shadow-lg">
+        <div className="flex items-center space-x-2 sm:space-x-4 bg-white/80 backdrop-blur-sm rounded-xl sm:rounded-2xl px-3 sm:px-6 py-2 sm:py-3 shadow-lg">
           {slides.map((_, index) => (
             <button
               key={index}
               onClick={() => setCurrentSlide(index)}
               className={`relative transition-all duration-300 ${
                 currentSlide === index
-                  ? "w-12 h-4 bg-blue-600 rounded-full"
-                  : "w-4 h-4 bg-gray-300 hover:bg-gray-400 rounded-full hover:scale-125"
+                  ? "w-6 h-2 sm:w-12 sm:h-4 bg-blue-600 rounded-full"
+                  : "w-2 h-2 sm:w-4 sm:h-4 bg-gray-300 hover:bg-gray-400 rounded-full hover:scale-125"
               }`}
             >
               {currentSlide === index && (
-                <div className="absolute inset-0 bg-white rounded-full m-1 shadow-sm"></div>
+                <div className="absolute inset-0 bg-white rounded-full m-0.5 sm:m-1 shadow-sm"></div>
               )}
             </button>
           ))}
@@ -471,34 +473,34 @@ const SAPOnboardingCarousel = () => {
 
         <button
           onClick={nextSlide}
-          className="flex items-center space-x-3 px-8 py-3 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+          className="flex items-center space-x-2 sm:space-x-3 px-3 sm:px-6 lg:px-8 py-2 sm:py-3 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white rounded-lg sm:rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
         >
-          <span className="font-medium">
+          <span className="font-medium text-sm sm:text-base">
             {currentSlide === slides.length - 1 ? "Get Started" : "Next"}
           </span>
           {currentSlide === slides.length - 1 ? (
-            <ExternalLink className="w-6 h-6" />
+            <ExternalLink className="w-5 h-5 sm:w-6 sm:h-6" />
           ) : (
-            <ChevronRight className="w-6 h-6" />
+            <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
           )}
         </button>
       </div>
 
       {/* Enhanced Fullscreen Modal */}
       {isFullscreen && (
-        <div className="fixed inset-0 bg-black/95 backdrop-blur-sm flex items-center justify-center z-50 p-6">
-          <div className="relative max-w-6xl max-h-full">
+        <div className="fixed inset-0 bg-black/95 backdrop-blur-sm flex items-center justify-center z-50 p-4 sm:p-6">
+          <div className="relative max-w-6xl max-h-full w-full">
             <button
               onClick={closeFullscreen}
-              className="absolute -top-16 right-0 text-white hover:text-gray-300 z-10 bg-white/10 backdrop-blur-sm rounded-full p-3 transition-all duration-300 hover:bg-white/20"
+              className="absolute -top-12 sm:-top-16 right-0 text-white hover:text-gray-300 z-10 bg-white/10 backdrop-blur-sm rounded-full p-2 sm:p-3 transition-all duration-300 hover:bg-white/20"
             >
-              <X className="w-8 h-8" />
+              <X className="w-6 h-6 sm:w-8 sm:h-8" />
             </button>
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 border border-white/20">
+            <div className="bg-white/10 backdrop-blur-sm rounded-xl sm:rounded-2xl p-2 sm:p-4 border border-white/20">
               <img
                 src={fullscreenImage}
                 alt="Fullscreen preview"
-                className="max-w-full max-h-[80vh] object-contain rounded-xl shadow-2xl"
+                className="max-w-full max-h-[70vh] sm:max-h-[80vh] object-contain rounded-lg sm:rounded-xl shadow-2xl mx-auto"
               />
             </div>
           </div>
