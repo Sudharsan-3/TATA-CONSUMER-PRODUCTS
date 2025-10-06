@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const CarouselHeader = ({ title, subtitle, currentSlide, slidesLength, onSlideChange }) => (
+export const CarouselHeader = ({ title, subtitle, currentSlide, slidesLength, onSlideChange , featureType }) => (
   <div className="text-center py-4 sm:py-6 lg:py-8 relative px-4">
     <div className="absolute inset-0 bg-gradient-to-r from-blue-600/5 via-purple-600/5 to-blue-600/5"></div>
     <div className="relative">
@@ -8,7 +8,7 @@ export const CarouselHeader = ({ title, subtitle, currentSlide, slidesLength, on
         {title}
       </h1>
       <p className="text-sm sm:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed px-4">
-        {subtitle}
+        { subtitle  }
       </p>
       {currentSlide !== null && (
         <div className="mt-3 sm:mt-4 inline-flex items-center space-x-2 bg-white/80 backdrop-blur-sm rounded-full px-3 sm:px-6 py-2 sm:py-3 shadow-sm">

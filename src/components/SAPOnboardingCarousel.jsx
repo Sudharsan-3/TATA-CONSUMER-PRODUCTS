@@ -16,13 +16,29 @@ const SAPOnboardingCarousel = () => {
   const [fullscreenImage, setFullscreenImage] = useState('');
   const { slides, homePageData } = useSlidesData();
 
-  const nextSlide = () => setCurrentSlide((prev) => (prev + 1) % slides.length);
-  const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
+  // Selecet the onPlatformSelect
+
+  const [featureType,setFeatureType] = useState();
+
+  console.log(featureType?.type,"vlaue for feature type")
+  const feature = featureType?.type
+  
+  // filtering the slides data's according to the osType
+
+  const filteredData = slides.filter((e)=>(e.osType.toLowerCase() === selectedPlatform.toLowerCase()) && e.homePageData === feature.toLowerCase())
+
+  console.log(filteredData.length)
+  
+  const nextSlide = () => setCurrentSlide((prev) => (prev + 1) % filteredData.length);
+  const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + filteredData.length) % filteredData.length);
 
   const handleFeatureClick = () => setCurrentView('platform');
 
+  console.log(currentView , "currentView")
+
   const handlePlatformSelection = (platform) => {
     setSelectedPlatform(platform);
+    
     setCurrentView('slides');
     setCurrentSlide(0);
   };
@@ -44,11 +60,11 @@ const SAPOnboardingCarousel = () => {
 
   const getHeaderContent = () => {
     if (currentView === 'home') {
-      return { title: 'SAP Analytics Cloud', subtitle: 'Choose a feature to explore and get started with powerful analytics' };
+      return { title: 'TATA CONSUMER PRODUCTS', subtitle: 'Easily explore and map TATA’s wide range of products with smart, data-driven insights.' };
     } else if (currentView === 'platform') {
       return { title: 'Platform Selection', subtitle: 'Choose your preferred platform to continue' };
     } else {
-      const currentSlideData = slides[currentSlide];
+      const currentSlideData = filteredData[currentSlide];
       return { title: currentSlideData.title, subtitle: currentSlideData.subtitle };
     }
   };
@@ -58,24 +74,25 @@ const SAPOnboardingCarousel = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 flex flex-col">
       <CarouselHeader
+      featureType={featureType}
         title={headerContent.title}
         subtitle={headerContent.subtitle}
         currentSlide={currentView === 'slides' ? currentSlide : null}
-        slidesLength={slides.length}
+        slidesLength={filteredData.length}
       />
 
       <div className="flex-1 flex items-center justify-center px-2 sm:px-4 py-4 sm:py-6">
         <div className="w-full">
-          {currentView === 'home' && <HomePage content={homePageData} onFeatureClick={handleFeatureClick} onImageClick={openFullscreen} />}
-          {currentView === 'platform' && <PlatformSelection onPlatformSelect={handlePlatformSelection} onBack={goBackToHome} />}
-          {currentView === 'slides' && <FeatureSlide content={slides[currentSlide].content} onImageClick={openFullscreen} />}
+          {currentView === 'home' && <HomePage  setFeatureType={setFeatureType}  content={homePageData} onFeatureClick={handleFeatureClick} onImageClick={openFullscreen} />}
+          {currentView === 'platform' && <PlatformSelection featureType={featureType}  onPlatformSelect={handlePlatformSelection} onBack={goBackToHome} />}
+          {currentView === 'slides' && <FeatureSlide content={filteredData[currentSlide].content}  onImageClick={openFullscreen} />}
         </div>
       </div>
 
       {currentView === 'slides' && (
         <SlideNavigation
           currentSlide={currentSlide}
-          slidesLength={slides.length}
+          slidesLength={filteredData.length}
           onPrev={prevSlide}
           onNext={nextSlide}
           onJump={setCurrentSlide}

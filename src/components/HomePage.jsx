@@ -1,14 +1,15 @@
 import React from 'react';
 import { IconRenderer } from './IconRenderer';
 
-export const HomePage = ({ content, onFeatureClick, onImageClick }) => (
+export const HomePage = ({ content, onFeatureClick, onImageClick , setFeatureType  }) =>
+   (
   <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="text-center mb-8 sm:mb-12">
       <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
         {content.header}
       </h2>
       <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-        Choose a feature to explore and get started with SAP Analytics
+      Choose a Feature to Explore and Get Started with TATA Consumer Products
       </p>
     </div>
     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
@@ -38,7 +39,7 @@ export const HomePage = ({ content, onFeatureClick, onImageClick }) => (
             <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-2 text-gray-900">{tab.title}</h3>
             <p className="text-gray-600 mb-4 leading-relaxed text-sm sm:text-base">{tab.description}</p>
             <button
-              onClick={onFeatureClick}
+              onClick={()=>(onFeatureClick(),setFeatureType(tab))}
               className={`w-full bg-gradient-to-r ${colorClasses[tab.color]} text-white px-4 sm:px-6 py-2.5 sm:py-3 text-sm rounded-lg sm:rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl`}
             >
               {tab.buttonText}

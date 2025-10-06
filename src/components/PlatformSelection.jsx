@@ -1,10 +1,10 @@
 import React from 'react';
 
-export const PlatformSelection = ({ onPlatformSelect, onBack }) => (
+export const PlatformSelection = ({ onPlatformSelect, onBack ,featureType }) => (
   <div className="w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="text-center mb-8 sm:mb-12">
       <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Choose Your Platform</h2>
-      <p className="text-gray-600 text-lg max-w-2xl mx-auto">Select your preferred platform to continue with SAP Analytics onboarding</p>
+      <p className="text-gray-600 text-lg max-w-2xl mx-auto">Select your preferred platform to continue with {featureType.title.charAt(0).toUpperCase() + featureType.title.slice(1)}</p>
     </div>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
       <div className="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-100">
