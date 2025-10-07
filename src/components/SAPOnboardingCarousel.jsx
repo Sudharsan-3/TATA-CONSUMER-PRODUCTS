@@ -25,7 +25,8 @@ const SAPOnboardingCarousel = () => {
   
   // filtering the slides data's according to the osType
 
-  const filteredData = slides.filter((e)=>(e.osType.toLowerCase() === selectedPlatform.toLowerCase()) && e.homePageData === feature.toLowerCase())
+  console.log(feature,selectedPlatform)
+  const filteredData = slides.filter((e)=>((e.osType.toLowerCase() === selectedPlatform.toLowerCase()) && e.homePageData.toLowerCase() === feature.toLowerCase()))
 
   console.log(filteredData.length)
   

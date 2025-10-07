@@ -28,7 +28,26 @@ export const SlideNavigation = ({ currentSlide, slidesLength, onPrev, onNext, on
       ))}
     </div>
 
-    <button
+    {currentSlide === slidesLength - 1 ? (
+  <a
+    href="/"
+    className="flex items-center space-x-2 sm:space-x-3 px-3 sm:px-6 lg:px-8 py-2 sm:py-2.5 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white rounded-lg sm:rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+  >
+    <span className="font-medium text-sm sm:text-base">Get Started</span>
+    <ExternalLink className="w-5 h-5 sm:w-6 sm:h-6" />
+  </a>
+) : (
+  <button
+    onClick={onNext}
+    className="flex items-center space-x-2 sm:space-x-3 px-3 sm:px-6 lg:px-8 py-2 sm:py-2.5 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white rounded-lg sm:rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+  >
+    <span className="font-medium text-sm sm:text-base">Next</span>
+    <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
+  </button>
+)}
+
+
+    {/* <button
       onClick={onNext}
       className="flex items-center space-x-2 sm:space-x-3 px-3 sm:px-6 lg:px-8 py-2 sm:py-2.5 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white rounded-lg sm:rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
     >
@@ -40,6 +59,6 @@ export const SlideNavigation = ({ currentSlide, slidesLength, onPrev, onNext, on
       ) : (
         <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
       )}
-    </button>
+    </button> */}
   </div>
 );
