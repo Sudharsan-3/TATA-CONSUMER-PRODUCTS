@@ -37,7 +37,7 @@ export const FeatureSlide = ({ content, onImageClick, featureType }) => {
               <p className="text-gray-700 mb-4 leading-relaxed text-sm sm:text-base">
                 {content.description}
               </p>
-              {content.extra.length !== 0 ? (
+              {content.extra ? (
                 <ul className="space-y-2 sm:space-y-3 mb-4 sm:mb-6">
                   {content.extra.map((e, index) => (
                     <li key={index} className="flex items-start space-x-3">
