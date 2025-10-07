@@ -1573,7 +1573,7 @@ export const useSlidesData = () => {
         type: "Spintly",
       },
       {
-        title: "MDM Enrolment for Android",
+        title: "MDM Enrolment for Android or iPhone",
         description: "MDM Enrollment for Android helps securely register and manage Android devices under the company’s control for better security and compliance.",
         image: "image3 (2).png",
         buttonText: "Get Start",
