@@ -11,7 +11,7 @@ export const PlatformSelection = ({ onPlatformSelect, onBack, featureType }) => 
         <div className="text-center">
           <div className="w-20 h-20 sm:w-24 sm:h-24 bg-gradient-to-br  from-green-400 to-green-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
             <img
-              src="/android-svgrepo-com.svg"
+              src="/android-svgrepo-com1.svg"
               alt="Android Icon"
               className="w-12 h-12 sm:w-14 sm:h-14 text-white "
             />

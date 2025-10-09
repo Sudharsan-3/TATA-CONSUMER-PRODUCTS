@@ -1563,6 +1563,11 @@ export const useSlidesData = () => {
         color: "blue",
         icon: "globe",
         type: "Installation",
+        noOFOs:[
+          "android",
+          "ios",
+          "windows"
+        ],
       },
       {
         title: "Spintly Door Access",
@@ -1572,6 +1577,11 @@ export const useSlidesData = () => {
         color: "emerald",
         icon: "bar-chart-3",
         type: "Spintly",
+        noOFOs:[
+          "android",
+          "ios",
+          "windows"
+        ],
       },
       {
         title: "MDM Enrollment for Android or iPhone",
@@ -1581,6 +1591,25 @@ export const useSlidesData = () => {
         color: "purple",
         icon: "users",
         type: "MDM",
+        noOFOs:[
+          "android",
+          "ios",
+          "windows"
+        ],
+      },  
+      {
+        title: "User Onboarding Dem Account",
+        description: "MDM Enrollment for Android helps securely register and manage Android devices under the company’s control for better security and compliance.",
+        image: "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Home-card/image3+(2).png  ",
+        buttonText: "Get Start",
+        color: "purple",
+        icon: "users",
+        type: "MDM",
+        noOFOs:[
+          "android",
+          "ios",
+          "windows"
+        ],
       },
     ],
   }), []);
