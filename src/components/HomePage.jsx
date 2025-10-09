@@ -27,7 +27,7 @@ export const HomePage = ({ content, onFeatureClick, onImageClick , setFeatureTyp
                 <img
                   src={tab.image}
                   alt={tab.title}
-                  className="w-full h-16 sm:h-20 lg:h-24 object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full  h-16 sm:h-20 lg:h-24 object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute top-2 sm:top-4 left-2 sm:left-4">
                   <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center">
