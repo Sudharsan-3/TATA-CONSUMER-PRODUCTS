@@ -1,0 +1,58 @@
+{
+    "homePageData": {
+        "header": "Start Your Journey",
+        "tabs": [
+            {
+                "title": "SuccessFactor App Installation",
+                "description": "Success Factors app at TATA Consumer Products enables seamless HR access and employee self-service on Android with secure login and smooth navigation.",
+                "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Home-card/image1.png",
+                "buttonText": "Get Start",
+                "color": "blue",
+                "icon": "globe",
+                "type": "Installation",
+                "noOFOs":[
+                    "android",
+                    "ios"
+                  ]
+            },
+            {
+                "title": "Spintly Door Access",
+                "description": "Worked on the Mobile Door Access installation and configuration for iOS devices, ensuring smooth setup, secure connectivity, and seamless access control integration.",
+                "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Home-card/image2.png",
+                "buttonText": "Get Start",
+                "color": "emerald",
+                "icon": "bar-chart-3",
+                "type": "Spintly",
+                "noOFOs":[
+                    "android",
+                    "ios"
+                  ]
+            },
+            {
+                "title": "MDM Enrollment for Android or iPhone",
+                "description": "MDM Enrollment for Android helps securely register and manage Android devices under the company’s control for better security and compliance.",
+                "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Home-card/image3+(2).png",
+                "buttonText": "Get Start",
+                "color": "purple",
+                "icon": "users",
+                "type": "MDM",
+                "noOFOs":[
+                    "android",
+                    "ios"
+                  ]
+            },
+            {
+                "title": "User Onboarding Dem Account",
+                "description": "User Onboarding Steps guide new users through essential setup and configurations, ensuring a seamless start and effortless adoption of the platform.",
+                "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Home-card/image4.png",
+                "buttonText": "Get Start",
+                "color": "purple",
+                "icon": "users",
+                "type": "Onboarding",
+                "noOFOs":[
+                  "windows"
+                ]
+              }
+        ]
+    }
+}

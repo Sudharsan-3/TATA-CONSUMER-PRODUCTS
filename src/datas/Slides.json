@@ -1,0 +1,1802 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "title": "Welcome to SAP SuccessFactors app installation on android",
+      "subtitle": "Configured and tested the SAP SuccessFactors app installation on Android devices to ensure secure login, smooth setup, and optimal user access.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "installation",
+      "content": {
+        "header": "SAP Analytics Cloud",
+        "title": "Step 1",
+        "description": "Please check if the SuccessFactors mobile application is available in your work profile. Else, Open 'Company portal' in your mobile device.",
+        "buttonText": "Get Started",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/SAP/image3.png",
+        "icon": "bar-chart-3",
+        "gradient": "from-blue-600 via-blue-700 to-indigo-800"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Welcome to SAP SuccessFactors app installation on android",
+      "subtitle": "Configured and tested the SAP SuccessFactors app installation on Android devices to ensure secure login, smooth setup, and optimal user access.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "installation",
+      "content": {
+        "header": "Smart Visualization",
+        "title": "Step 2",
+        "description": "Click on the 'Menu' icon.",
+        "buttonText": "Explore Templates",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/SAP/image4.png",
+        "icon": "bar-chart-3",
+        "gradient": "from-emerald-500 via-teal-600 to-cyan-700"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Welcome to SAP SuccessFactors app installation on android",
+      "subtitle": "Configured and tested the SAP SuccessFactors app installation on Android devices to ensure secure login, smooth setup, and optimal user access.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "installation",
+      "content": {
+        "header": "Enterprise Planning",
+        "title": "Step 3",
+        "description": "Click on 'Get Apps' option. ",
+        "buttonText": "Start Planning",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/SAP/image5.png",
+        "icon": "users",
+        "gradient": "from-purple-600 via-violet-700 to-indigo-800"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Welcome to SAP SuccessFactors app installation on android",
+      "subtitle": "Configured and tested the SAP SuccessFactors app installation on Android devices to ensure secure login, smooth setup, and optimal user access.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "installation",
+      "content": {
+        "header": "Smart Predict",
+        "title": "Step 4",
+        "description": "Search for 'SAP SuccessFactors Mobile' application and click on install.",
+        "buttonText": "Try Predictions",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/SAP/image6.png",
+        "icon": "zap",
+        "gradient": "from-red-500 via-pink-600 to-purple-700"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Welcome to SAP SuccessFactors app installation on android",
+      "subtitle": "Configured and tested the SAP SuccessFactors app installation on Android devices to ensure secure login, smooth setup, and optimal user access.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "installation",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 5",
+        "description": "Open the installed SAP SuccessFactors Mobile app and you will be directly logged in without credentials.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/SAP/image7.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Welcome to SAP SuccessFactors app installation on android",
+      "subtitle": "Configured and tested the SAP SuccessFactors app installation on Android devices to ensure secure login, smooth setup, and optimal user access.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "installation",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 6",
+        "description": "Choose any options for sending Notifications.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/SAP/image8.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Welcome to SAP SuccessFactors app installation on ios",
+      "subtitle": "Configured and tested the SAP SuccessFactors app installation on ios devices to ensure secure login, smooth setup, and optimal user access.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "installation",
+      "content": {
+        "header": "SAP Analytics Cloud",
+        "title": "Step 1",
+        "description": "Please check if the SuccessFactors mobile application is available in your work profile. Else, Open 'Company portal' in your mobile device.",
+        "buttonText": "Get Started",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/SAP/image9.png",
+        "icon": "bar-chart-3",
+        "gradient": "from-blue-600 via-blue-700 to-indigo-800"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Welcome to SAP SuccessFactors app installation on ios",
+      "subtitle": "Configured and tested the SAP SuccessFactors app installation on ios devices to ensure secure login, smooth setup, and optimal user access.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "installation",
+      "content": {
+        "header": "Smart Visualization",
+        "title": "Step 2",
+        "description": "Click on the 'Menu' icon.",
+        "buttonText": "Explore Templates",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/SAP/image10.png",
+        "icon": "bar-chart-3",
+        "gradient": "from-emerald-500 via-teal-600 to-cyan-700"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Welcome to SAP SuccessFactors app installation on ios",
+      "subtitle": "Configured and tested the SAP SuccessFactors app installation on ios devices to ensure secure login, smooth setup, and optimal user access.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "installation",
+      "content": {
+        "header": "Enterprise Planning",
+        "title": "Step 3",
+        "description": "Click on 'Get Apps' option. ",
+        "buttonText": "Start Planning",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/SAP/image11.png",
+        "icon": "users",
+        "gradient": "from-purple-600 via-violet-700 to-indigo-800"
+      }
+    },
+    {
+      "id": 10,
+      "title": "Welcome to SAP SuccessFactors app installation on ios",
+      "subtitle": "Configured and tested the SAP SuccessFactors app installation on ios devices to ensure secure login, smooth setup, and optimal user access.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "installation",
+      "content": {
+        "header": "Smart Predict",
+        "title": "Step 4",
+        "description": "Search for 'SAP SuccessFactors Mobile' application and click on install.",
+        "buttonText": "Try Predictions",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/SAP/image12.png",
+        "icon": "zap",
+        "gradient": "from-red-500 via-pink-600 to-purple-700"
+      }
+    },
+    {
+      "id": 11,
+      "title": "Welcome to SAP SuccessFactors app installation on ios",
+      "subtitle": "Configured and tested the SAP SuccessFactors app installation on ios devices to ensure secure login, smooth setup, and optimal user access.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "installation",
+      "content": {
+        "header": "Data Protection",
+        "title": "Steo 5",
+        "description": "Open the installed SAP SuccessFactors Mobile app and you will be directly logged in without credentials.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/SAP/image13.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 12,
+      "title": "Welcome to SAP SuccessFactors app installation on ios",
+      "subtitle": "Configured and tested the SAP SuccessFactors app installation on ios devices to ensure secure login, smooth setup, and optimal user access.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "installation",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 6",
+        "description": "Choose any options for sending Notifications.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/SAP/image14.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 13,
+      "title": "Welcome to SAP SuccessFactors app installation on ios",
+      "subtitle": "Configured and tested the SAP SuccessFactors app installation on ios devices to ensure secure login, smooth setup, and optimal user access.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "installation",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 7",
+        "description": "Choose any options for sending Notifications.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/SAP/image15.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 14,
+      "title": "Welcome to SAP SuccessFactors app installation on android",
+      "subtitle": "Configured and tested the SAP SuccessFactors app installation on Android devices to ensure secure login, smooth setup, and optimal user access.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "installation",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 7",
+        "description": "After finishing the previous step, you'll be taken to the SuccessFactors app screen as shown below.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/SAP/image16.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 15,
+      "title": "Welcome to Spintly door access app installation on android",
+      "subtitle": "Spintly mobile door access applications will be pushed on Android devices Open the app from your work profile",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "Spintly",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 1",
+        "description": "Open the app and click on SSO login.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Spintly/image17.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 16,
+      "title": "Welcome to Spintly door access app installation on android",
+      "subtitle": "Spintly mobile door access applications will be pushed on Android devices Open the app from your work profile",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "Spintly",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 2",
+        "description": "Please enter your tata consumer email address and click next",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Spintly/image18.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 17,
+      "title": "Welcome to Spintly door access app installation on android",
+      "subtitle": "Spintly mobile door access applications will be pushed on Android devices Open the app from your work profile",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "Spintly",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 3",
+        "description": "It will redirect to Microsoft edge browser, once you reach the page, please Select your tata consumer email address",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Spintly/image19.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 18,
+      "title": "Welcome to Spintly door access app installation on android",
+      "subtitle": "Spintly mobile door access applications will be pushed on Android devices Open the app from your work profile",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "Spintly",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 4",
+        "description": "Click continue",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Spintly/image20.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 19,
+      "title": "Welcome to Spintly door access app installation on android",
+      "subtitle": "Spintly mobile door access applications will be pushed on Android devices Open the app from your work profile",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "Spintly",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 5",
+        "description": "If Bluetooth is off on your device, please turn it on. Bluetooth is required to use the app.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Spintly/image21.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 20,
+      "title": "Welcome to Spintly door access app installation on android",
+      "subtitle": "Spintly mobile door access applications will be pushed on Android devices Open the app from your work profile",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "Spintly",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 6",
+        "description": "Click on Allow",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Spintly/image22.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 21,
+      "title": "Welcome to Spintly door access app installation on android",
+      "subtitle": "Spintly mobile door access applications will be pushed on Android devices Open the app from your work profile",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "Spintly",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 7",
+        "description": "If your Phone support NFC, please enable the NFC.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Spintly/image23.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 22,
+      "title": "Welcome to Spintly door access app installation on android",
+      "subtitle": "Spintly mobile door access applications will be pushed on Android devices Open the app from your work profile",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "Spintly",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 8",
+        "description": "Enable NFC on Phone Settings.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Spintly/image24.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 23,
+      "title": "Welcome to Spintly door access app installation on android",
+      "subtitle": "Spintly mobile door access applications will be pushed on Android devices Open the app from your work profile",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "Spintly",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 9",
+        "description": "Now, site details will be listed as below. Click on the drop-down menu on site information.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Spintly/image25.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 24,
+      "title": "Welcome to Spintly door access app installation on ios",
+      "subtitle": "Spintly mobile door access applications will be pushed on ios devices Open the app from your work profile",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "Spintly",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 1",
+        "description": "Spintly mobile door access application will be pushed on ios devices and below notification will appear.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Spintly/image26.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 25,
+      "title": "Welcome to Spintly door access app installation on ios",
+      "subtitle": "Spintly mobile door access applications will be pushed on ios devices Open the app from your work profile",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "Spintly",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 2",
+        "description": "Open the app and click Allow.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Spintly/image27.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 26,
+      "title": "Welcome to Spintly door access app installation on ios",
+      "subtitle": "Spintly mobile door access applications will be pushed on ios devices Open the app from your work profile",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "Spintly",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 3",
+        "description": "Click on SSO Login.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Spintly/image28.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 27,
+      "title": "Welcome to Spintly door access app installation on ios",
+      "subtitle": "Spintly mobile door access applications will be pushed on ios devices Open the app from your work profile",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "Spintly",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 4",
+        "description": "Please enter your tata consumer email address and click next.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Spintly/image29.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 28,
+      "title": "Welcome to Spintly door access app installation on ios",
+      "subtitle": "Spintly mobile door access applications will be pushed on ios devices Open the app from your work profile",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "Spintly",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 5",
+        "description": "Click on continue.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Spintly/image30.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 29,
+      "title": "Welcome to Spintly door access app installation on ios",
+      "subtitle": "Spintly mobile door access applications will be pushed on ios devices Open the app from your work profile",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "Spintly",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 6",
+        "description": "Select your tata consumer email address.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Spintly/image31.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 30,
+      "title": "Welcome to Spintly door access app installation on ios",
+      "subtitle": "Spintly mobile door access applications will be pushed on ios devices Open the app from your work profile",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "Spintly",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 7",
+        "description": "Click continue.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Spintly/image32.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 31,
+      "title": "Welcome to Spintly door access app installation on ios",
+      "subtitle": "Spintly mobile door access applications will be pushed on ios devices Open the app from your work profile",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "Spintly",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 8",
+        "description": "Click “Allow while using app” and click continue.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Spintly/image33.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 32,
+      "title": "Welcome to Spintly door access app installation on ios",
+      "subtitle": "Spintly mobile door access applications will be pushed on ios devices Open the app from your work profile",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "Spintly",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 9",
+        "description": "Click “Allow while using app” and click continue.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Spintly/image34.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 33,
+      "title": "Welcome to Spintly door access app installation on ios",
+      "subtitle": "Spintly mobile door access applications will be pushed on ios devices Open the app from your work profile",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "Spintly",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 10",
+        "description": "Click on Allow.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Spintly/image35.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 34,
+      "title": "Welcome to Spintly door access app installation on ios",
+      "subtitle": "Spintly mobile door access applications will be pushed on ios devices Open the app from your work profile",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "Spintly",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 11",
+        "description": "To unlock door without opening the app, please select Always in locations.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Spintly/image36.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 35,
+      "title": "Welcome to Spintly door access app installation on ios",
+      "subtitle": "Spintly mobile door access applications will be pushed on ios devices Open the app from your work profile",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "Spintly",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 12",
+        "description": "Click on location and change from while using.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Spintly/image37.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 36,
+      "title": "Welcome to Spintly door access app installation on ios",
+      "subtitle": "Spintly mobile door access applications will be pushed on ios devices Open the app from your work profile",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "Spintly",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 13",
+        "description": "And choose as always.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Spintly/image38.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-80Spintly door access0 to-zinc-900"
+      }
+    },
+    {
+      "id": 37,
+      "title": "Welcome to Spintly door access app installation on ios",
+      "subtitle": "Spintly mobile door access applications will be pushed on ios devices Open the app from your work profile",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "Spintly",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 14",
+        "description": "Now, site details will be listed as below. Click on the drop-down menu on site information.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/Spintly/image39.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 38,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Note",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 1",
+        "description": "Before enrolling the MDM on an iPhone, please check if the stolen device protection is enabled. If it is, follow the steps.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image60.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 39,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage iPhone devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 2",
+        "description": "Open settings – Face ID & Passcode – Stolen device protection.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image40.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 40,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage iPhone devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 3",
+        "description": "Disable the Stolen device protection and security delay in progress will be invoked.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image41.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 41,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage iPhone devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 4",
+        "description": "After 60 minutes, need to disable the stolen device protection.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image42.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 42,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage iPhone devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 5",
+        "description": "For Apple store search for intune company portal and install it.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image43.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 43,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage iPhone devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 6",
+        "description": "Once installed, open the company portal and click on begin.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image44.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 44,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage iPhone devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 7",
+        "description": "Click on begin.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image45.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 45,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage iPhone devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 8",
+        "description": "Click on continue.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image46.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 46,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage iPhone devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 9",
+        "description": "Click on Allow to download management profile.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image47.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 47,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage iPhone devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 10",
+        "description": "Wait for profile download confirmation.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image48.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 48,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage iPhone devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 11",
+        "description": "Once confirmation received, click on close to proceed.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image49.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 49,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage iPhone devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 12",
+        "description": "Click continue for installing management profile.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image50.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 50,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage iPhone devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 13",
+        "description": "To install the management profile, please follow as below.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image51.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 51,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage iPhone devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 14",
+        "description": "Click on Install (Top right corner).",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image52.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 52,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage iPhone devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 15",
+        "description": "Click install.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image53.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 53,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage iPhone devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 16",
+        "description": "Click install (Top right corner).",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image54.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 54,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage iPhone devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 17",
+        "description": "Click on trust.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image55.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 55,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage iPhone devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 18",
+        "description": "Once profile installed, click on done.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image56.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 56,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage iPhone devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 19",
+        "description": "Open the company portal and click on Manage.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image57.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 57,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage iPhone devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 20",
+        "description": "Choose device status accordingly.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image58.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 58,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage iPhone devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "ios",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 21",
+        "description": "Click on done once the message is displayed.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image59.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 58,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 1",
+        "description": "Pre-Requisites.",
+        "extra": [
+          "Intune requires Android 9.x or higher for device enrollment",
+          "Storage – Free space of 8GB Mandatory. ",
+          "For Intune app protection policies to apply, Intune requires Android 9.0 or higher. Mobile OS details",
+          "can be verified in Device Security → System → About ",
+          "A communication from TCPL IT team that you are eligible for this enrollment.",
+          "Remove device from existing enrollment"
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image61.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 59,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 2",
+        "description": "Remove device from Intune Company portal – Device Offboarding.",
+        "extra": [
+          "Note: If your device is not enrolled, skip this activity and move to Step 3. Enroll Android device in Microsoft Intune-Device Onboarding",
+          "Open Company portal, click the 3 horizontal bars on the top left corner and select “Remove Company Portal.” ",
+          "Alternatively, you can navigate to Settings, Search for “Accounts and Sync”, Open it and you will see an option for “Remove work profile. If you select it your work profile will be removed from the device. ",
+          "Restart the device then."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image62.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 60,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 3",
+        "description": "Enroll android device in Intune Company Portal – Device Onboarding.",
+        "extra": [
+          "Note: If you do not receive below message, skip this step, and move to next step."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image63.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 61,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 4",
+        "description": "Enroll android device in Intune Company Portal.",
+        "extra": [
+          "Step 4 (1) ",
+          "Open Google play store to install company portal app. "
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image64.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 62,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 4",
+        "description": "Enroll android device in Intune Company Portal.",
+        "extra": [
+          "Step 4 (2) ",
+          "Search for Intune Company Portal and click “Install."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image65.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 62,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 4",
+        "description": "Enroll android device in Intune Company Portal.",
+        "extra": [
+          "Step 4 (3) ",
+          "Open the Company Portal app and sign in with your work or school account."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image66.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 63,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 4",
+        "description": "Enroll android device in Intune Company Portal.",
+        "extra": [
+          "Step 4 (4) ",
+          "Enter your email address and then click “Next” and complete the multi factor authentication."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image67.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 63,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 4",
+        "description": "Enroll android device in Intune Company Portal.",
+        "extra": [
+          "Step 4 (5) ",
+          "After successful authentication, the user is prompted to Create Work Profile, activate a work profile, Update the device Settings click on Begin. ",
+          "Click “Begin” on below screen. Click “Continue” after reviewing what data can be accessed on your phone. It will then register your device to Intune. The Company Portal setup process will take a few minutes to complete."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image68.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 64,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 4",
+        "description": "Enroll android device in Intune Company Portal.",
+        "extra": [
+          "Step 4 (6) ",
+          "Click “Accept & Continue”. Then click “Next”."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image69.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 65,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 4",
+        "description": "Enroll android device in Intune Company Portal.",
+        "extra": [
+          "Step 4 (7) ",
+          "This will start setting up your work profile. Once it is completed, you will be prompted to click “Next”. Click “Next” on the screen. "
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image70.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 66,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 4",
+        "description": "Enroll android device in Intune Company Portal.",
+        "extra": [
+          "Step 4 (8) ",
+          "Now a work profile has been created, and it must be activated. Click on continue, and this will register the device to Intune and Activate the Work Profile on the device.",
+          "Now you need to choose a category for the device. Select the right category out of personal or corporate device and Click “Done”. "
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image71.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 67,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 4",
+        "description": "Enroll android device in Intune Company Portal.",
+        "extra": [
+          "Step 4 (9) ",
+          "If you are using a personal device Select “Personal” or if it is a company provided device then select “Corporate”. Click “Done” as highlighted below. Now a work profile has been created and activated "
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image72.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 68,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 4",
+        "description": "Enroll android device in Intune Company Portal.",
+        "extra": [
+          "Step 4 (10) ",
+          "Click “continue”, then click “Confirm Device Settings”. This will update the device settings."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image73.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 69,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 4",
+        "description": "Enroll android device in Intune Company Portal.",
+        "extra": [
+          "Step 4 (11) ",
+          "Now you will see the 3 checks completed. Click “Done”. The work apps will be separate from personal apps. Work apps will have a badge. You can download Works apps from the badged version of Google Play Store. "
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image74.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 70,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 4",
+        "description": "Enroll android device in Intune Company Portal.",
+        "extra": [
+          "Step 4 (12) ",
+          "You will now see a notification to open badged version of Google Play to get the apps. In Google play store search for “Apps” to see all the available apps."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image75.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 71,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 4",
+        "description": "Enroll android device in Intune Company Portal.",
+        "extra": [
+          "Step 4 (13) ",
+          "A work profile will be created which will have contain applications which are already installed on the device as shown below: ",
+          "You will then receive notifications about applications which are getting installed automatically.",
+          " Wait for a few minutes and let them get installed. Then sign-in to applications like Outlook, Teams, Excel."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image76.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 72,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 5",
+        "description": "Configure Outlook post device Enrollment.",
+        "extra": [
+          "Step 5 (1) ",
+          "Open Outlook from the list of Work Apps. Click “Add Account”, sign-in using email address and password. Complete the multi factor authentication."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image77.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 72,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 5",
+        "description": "Configure Outlook post device Enrollment.",
+        "extra": [
+          "Step 5 (2) ",
+          "You will see a prompt mentioning Your organization protects data in this app. Click “Continue” If you have more accounts to add, you can add them too. Else select “Maybe Later.”"
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image78.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 73,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 6",
+        "description": "Configure Outlook post device Enrollment.",
+        "extra": [
+          "Step 6 (1) ",
+          "Open Microsoft Teams from the list of Work Apps. Sign-in using work credentials"
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image79.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 74,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 6",
+        "description": "Configure Outlook post device Enrollment.",
+        "extra": [
+          "Step 6 (2) ",
+          "After signing-in you will see the prompt a prompt “Your organization protects data in this app”. Click “Continue”"
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image80.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 75,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 6",
+        "description": "Configure Outlook post device Enrollment.",
+        "extra": [
+          "Step 6 (3) ",
+          "Below the screen will appear showing features of Microsoft Teams. Click “Next”"
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image81.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 76,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 6",
+        "description": "Configure Outlook post device Enrollment.",
+        "extra": [
+          "Step 6 (4) ",
+          "Select “Got it”. Then wait till setup is complete."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image82.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 77,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 7",
+        "description": "Setup Word and Excel",
+        "extra": [
+          "Open Word or Excel from Work Profile. You will see the prompt mentioning Your organization protects data in this app. Click “Continue.” You will be signed in then."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image83.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 78,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 8",
+        "description": "Sign-in to Microsoft Edge ",
+        "extra": [
+          "Open Microsoft Edge from Work Profile. Click sign-in to Sync, then sign-in using email address and password. You will see a badge when Edge opens-up. If you click on Badge, it will show your work credentials.",
+          "Note: If you do not install or sign-in to edge, you will not be able to open web URLs from Outlook and Teams."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image84.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 79,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 9",
+        "description": "Personal Apps vs Work Apps ",
+        "extra": [
+          "Step 9 (1)",
+          "One android device, Work apps are marked with a briefcase badge, while personal apps do not have a briefcase badge."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image85.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 80,
+      "title": "Welcome to MDM Enrolment Instructions for iPhone",
+      "subtitle": "Securely enroll and manage Android devices to ensure data protection, policy compliance, and seamless access within the organization’s MDM system.",
+      "type": "feature",
+      "osType": "android",
+      "homePageData": "MDM",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 9",
+        "description": "Personal Apps vs Work Apps ",
+        "extra": [
+          "Step 9 (2)",
+          "After you've set up the work profile, you may see duplicate apps on your device. For example, you could have two Outlook apps. Use the version that's marked with the briefcase whenever you're doing work- related tasks. "
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image86.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 81,
+      "title": "User Onboarding Steps",
+      "subtitle": "Note",
+      "type": "feature",
+      "osType": "windows",
+      "homePageData": "Onboarding",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 0",
+        "description": "Once you receive the laptop, please check the device’s condition (Screen, keyboard, charger, ports, etc.) and report any issues immediately. ",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/MDM/image60.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 82,
+      "title": "User Onboarding Steps",
+      "subtitle": "Once you receive the laptop, please check the device’s condition (Screen, keyboard, charger, ports, etc.) and report any issues immediately.",
+      "type": "feature",
+      "osType": "windows",
+      "homePageData": "Onboarding",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 1",
+        "description": "Login & Basic Setup",
+        "extra": [
+          "Please ensure the system is connected to the available Wi-Fi network",
+          "On the login screen, click 'Other User' (bottom-left corner).",
+          "Enter your user credentials."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/new+user+onboarding/image1.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 83,
+      "title": "User Onboarding Steps",
+      "subtitle": "Once you receive the laptop, please check the device’s condition (Screen, keyboard, charger, ports, etc.) and report any issues immediately.",
+      "type": "feature",
+      "osType": "windows",
+      "homePageData": "Onboarding",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 1",
+        "description": "Login & Basic Setup",
+        "extra": [
+          "Recommend skipping the Face setup."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/new+user+onboarding/image2.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 84,
+      "title": "User Onboarding Steps",
+      "subtitle": "Once you receive the laptop, please check the device’s condition (Screen, keyboard, charger, ports, etc.) and report any issues immediately.",
+      "type": "feature",
+      "osType": "windows",
+      "homePageData": "Onboarding",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 1",
+        "description": "Login & Basic Setup",
+        "extra": [
+          "Click OK to set up Windows Hello with your account."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/new+user+onboarding/image3.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 85,
+      "title": "User Onboarding Steps",
+      "subtitle": "Once you receive the laptop, please check the device’s condition (Screen, keyboard, charger, ports, etc.) and report any issues immediately.",
+      "type": "feature",
+      "osType": "windows",
+      "homePageData": "Onboarding",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 2",
+        "description": "Multi-Factor Authentication (MFA) Setup",
+        "extra": [
+          "Download and install the Microsoft Authenticator app on your mobile."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/new+user+onboarding/image4.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 86,
+      "title": "User Onboarding Steps",
+      "subtitle": "Once you receive the laptop, please check the device’s condition (Screen, keyboard, charger, ports, etc.) and report any issues immediately.",
+      "type": "feature",
+      "osType": "windows",
+      "homePageData": "Onboarding",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 2",
+        "description": "Multi-Factor Authentication (MFA) Setup",
+        "extra": [
+          "Open the app and scan the QR code displayed on your laptop."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/new+user+onboarding/image5.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 87,
+      "title": "User Onboarding Steps",
+      "subtitle": "Once you receive the laptop, please check the device’s condition (Screen, keyboard, charger, ports, etc.) and report any issues immediately.",
+      "type": "feature",
+      "osType": "windows",
+      "homePageData": "Onboarding",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 2",
+        "description": "Multi-Factor Authentication (MFA) Setup",
+        "extra": [
+          "Confirm the setup by entering the verification code shown on the laptop into the Authenticator app."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/new+user+onboarding/image6.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 88,
+      "title": "User Onboarding Steps",
+      "subtitle": "Once you receive the laptop, please check the device’s condition (Screen, keyboard, charger, ports, etc.) and report any issues immediately.",
+      "type": "feature",
+      "osType": "windows",
+      "homePageData": "Onboarding",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 2",
+        "description": "Multi-Factor Authentication (MFA) Setup",
+        "extra": [
+          "Set up your personal Windows PIN and click OK."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/new+user+onboarding/image7.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 89,
+      "title": "User Onboarding Steps",
+      "subtitle": "Once you receive the laptop, please check the device’s condition (Screen, keyboard, charger, ports, etc.) and report any issues immediately.",
+      "type": "feature",
+      "osType": "windows",
+      "homePageData": "Onboarding",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 3",
+        "description": "Standard Applications Setup - Zscalar",
+        "extra": [
+          "Log in to Zscaler using your credentials."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/new+user+onboarding/image8.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 90,
+      "title": "User Onboarding Steps",
+      "subtitle": "Once you receive the laptop, please check the device’s condition (Screen, keyboard, charger, ports, etc.) and report any issues immediately.",
+      "type": "feature",
+      "osType": "windows",
+      "homePageData": "Onboarding",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 3",
+        "description": "Standard Applications Setup - Outlook",
+        "extra": [
+          "Open Outlook, click Connect, and complete the email setup."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/new+user+onboarding/image9.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 91,
+      "title": "User Onboarding Steps",
+      "subtitle": "Once you receive the laptop, please check the device’s condition (Screen, keyboard, charger, ports, etc.) and report any issues immediately.",
+      "type": "feature",
+      "osType": "windows",
+      "homePageData": "Onboarding",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 3",
+        "description": "Standard Applications Setup - Teams",
+        "extra": [
+          "Open the Microsoft Teams app and finish configuration."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/new+user+onboarding/image10.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 92,
+      "title": "User Onboarding Steps",
+      "subtitle": "Once you receive the laptop, please check the device’s condition (Screen, keyboard, charger, ports, etc.) and report any issues immediately.",
+      "type": "feature",
+      "osType": "windows",
+      "homePageData": "Onboarding",
+      "content": {
+        "header": "Data Protection",
+        "title": "Step 3",
+        "description": "Standard Applications Setup - Druva",
+        "extra": [
+          "Open Druva Backup Client → enter your email ID → click Connect.",
+          "Druva will redirect you to Microsoft Edge for authentication.",
+          "Select Always Allow and wait a few seconds for the backup to activate."
+        ],
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/new+user+onboarding/image11.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    },
+    {
+      "id": 93,
+      "title": "User Onboarding Steps",
+      "subtitle": "Thank you for completing the onboarding process! We appreciate your time and cooperation — you’re all set to get started with your new journey.",
+      "type": "feature",
+      "osType": "windows",
+      "homePageData": "Onboarding",
+      "content": {
+        "header": "Data Protection",
+        "title": "You're All Set!",
+        "description": "Thank you for completing the onboarding process.",
+        "buttonText": "Configure Security",
+        "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/new+user+onboarding/image13.png",
+        "icon": "shield",
+        "gradient": "from-gray-700 via-slate-800 to-zinc-900"
+      }
+    }
+  ]
+}
