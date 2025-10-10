@@ -1606,8 +1606,6 @@ export const useSlidesData = () => {
         icon: "users",
         type: "MDM",
         noOFOs:[
-          "android",
-          "ios",
           "windows"
         ],
       },

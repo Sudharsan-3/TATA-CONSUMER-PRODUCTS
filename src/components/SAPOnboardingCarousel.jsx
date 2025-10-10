@@ -7,6 +7,9 @@ import { PlatformSelection } from './PlatformSelection';
 import { FeatureSlide } from './FeatureSlide';
 import { SlideNavigation } from './SlideNavigation';
 import { FullscreenModal } from './FullscreenModal';
+import data from "../datas/OsDatas.json"
+
+import home from "../datas/Home.json"
 
 const SAPOnboardingCarousel = () => {
   const [currentView, setCurrentView] = useState('home'); // 'home', 'platform', 'slides'
@@ -21,20 +24,28 @@ const SAPOnboardingCarousel = () => {
   const [slides, setSlides] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-
+  
   const [featureType, setFeatureType] = useState();
+
+ 
+// console.log(home,"home data from local json")
+  const [platformData,setPlatformData] = useState()
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         // Fetch Home.json
         const homeRes = await fetch("https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/datas/Home.json");
+        // console.log(homeRes.json().homePageData,"after the rendring")
         if (!homeRes.ok) throw new Error(`Home.json HTTP error! Status: ${homeRes.status}`);
         const homeJson = await homeRes.json();
         setHomePageData(homeJson.homePageData);
+        console.log(homeJson.homePageData , "from inital state of the feating data")
 
         // Fetch Slides.json
         const slidesRes = await fetch("https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/datas/Slides.json");
+        
+        //  console.log(slidesRes.json().slides,"after featcing the slidesRes")
         if (!slidesRes.ok) throw new Error(`Slides.json HTTP error! Status: ${slidesRes.status}`);
         const slidesJson = await slidesRes.json();
         setSlides(slidesJson.slides); // assuming your JSON has a key "slides"
@@ -51,18 +62,26 @@ const SAPOnboardingCarousel = () => {
 
     fetchData();
   }, []);
+  console.log(homePageData , "for homePageData")
+  const valuse = homePageData?.tabs.map((e)=>{
+    return e.noOFOs
+  })
+  
+  // console.log(homePageData.tabs , "to check the values of os")
 
   // Set initial featureType when homePageData is fetched
   useEffect(() => {
+
     if (homePageData && homePageData.tabs.length > 0) {
       setFeatureType(homePageData.tabs[0]);
+      
     }
   }, [homePageData]);
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p className="text-red-600">Error: {error}</p>;
 
-  console.log(featureType?.type, "value for feature type");
+  console.log(featureType, "value for feature type");
   const feature = featureType?.type;
 
   // Filtering the slides data according to the osType
@@ -150,6 +169,7 @@ const SAPOnboardingCarousel = () => {
               featureType={featureType}
               onPlatformSelect={handlePlatformSelection}
               onBack={goBackToHome}
+              platformData={data}
             />
           )}
           {currentView === 'slides' && filteredData.length > 0 && (

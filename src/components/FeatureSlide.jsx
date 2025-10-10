@@ -56,7 +56,7 @@ export const FeatureSlide = ({ content, onImageClick, featureType }) => {
         </button> */}
             </div>
           </div>
-        </div>) : ("nodata founded")
+        </div>) : ("no data founded")
       }
 
     </div>

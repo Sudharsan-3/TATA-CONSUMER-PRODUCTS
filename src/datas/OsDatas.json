@@ -1,0 +1,30 @@
+{
+    "initial": {
+      "heading": "Choose Your Platform",
+      "subTitle": "Select your preferred platform to continue with"
+    },
+    "os": {
+      "windows": {
+        "name": "Windows",
+        "subTitle": "Windows system configurations",
+        "buttonText": "Continue with Windows",
+        "gradient": "from-sky-500 via-blue-600 to-blue-800",
+        "icon": "/windows-applications-svgrepo-com.svg"
+      },
+      "android": {
+        "name": "Android",
+        "subTitle": "Optimized experience for Android devices with native performance",
+        "buttonText": "Continue with Android",
+        "gradient": "from-green-400 via-green-500 to-green-700",
+        "icon": "/android-svgrepo-com1.svg"
+      },
+      "ios": {
+        "name": "iOS",
+        "subTitle": "Seamless integration with iOS ecosystem and Apple design principles",
+        "buttonText": "Continue with iOS",
+        "gradient": "from-gray-700 via-gray-800 to-black",
+        "icon": "/apple-svgrepo-com (2).svg"
+      }
+    }
+  }
+  
