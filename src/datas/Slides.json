@@ -1712,7 +1712,7 @@
         "description": "Standard Applications Setup - Zscalar",
         "extra": [
           "Log in to Zscaler using your credentials."
-        ],
+        ], 
         "buttonText": "Configure Security",
         "image": "https://imagesbucketxlorit.s3.eu-north-1.amazonaws.com/Tata/new+user+onboarding/image8.png",
         "icon": "shield",
